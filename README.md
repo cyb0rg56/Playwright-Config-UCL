@@ -11,8 +11,10 @@
    + nano
    + wget
      
-   + <img width="672" alt="image" src="https://github.com/cyb0rg56/SPCS-Dynamics-365-Test-Suite/assets/46009508/0822f49d-24db-4f85-8175-8e27b153cac7">
-   + <img width="672" alt="image" src="https://github.com/cyb0rg56/SPCS-Dynamics-365-Test-Suite/assets/46009508/73ea3858-3a99-4c49-83ea-18a131e39c57">
+   + <img width="672" alt="301260999-0822f49d-24db-4f85-8175-8e27b153cac7" src="https://github.com/cyb0rg56/Fish-on-Windows/assets/46009508/824b37bc-56a4-4643-aaf9-7f198844b16b">
+
+   + <img width="672" alt="301261145-73ea3858-3a99-4c49-83ea-18a131e39c57" src="https://github.com/cyb0rg56/Fish-on-Windows/assets/46009508/4c648258-78d1-4877-8b28-5ea9bb8e8eeb">
+
 
 3. Finish off the install. This'll take 5-10 mins.
      
