@@ -1,6 +1,17 @@
-# Fish-on-Windows
+# Environment Config (Use defaults for install):
 
-# Using fish shell on Windows
+1. Install [Visual Studio Code](https://code.visualstudio.com/docs/?dv=win64user).
+
+2. Install [nvm-windows](https://github.com/coreybutler/nvm-windows) (Node Version Manager for Windows). Download the latest release of nvm-setup.exe
+   
+   + Open Command Prompt and run the commands below to configure nvm to use an LTS(Long Term Support) version of node
+     ```
+     nvm (to check if nvm is working correctly)
+     nvm install lts
+     ```
+# Fish-on-Windows (Friendly Interactive SHell)
+
+## Using fish shell on Windows
 
 ## Install
 1. Install [Cygwin](https://www.cygwin.com/setup-x86_64.exe) ( This will be our linux terminal emulator )
@@ -35,6 +46,7 @@
 
 ## Cygwin Config
 
+### SSH Keys
 1. To create an SSH Key, run the command below but replace with your GitHub email. Give the key a name.
 ```
 ssh-keygen -t ed25519 -C "your_email@example.com"
@@ -45,6 +57,7 @@ cat ~/.ssh/NAME_OF_KEY.pub
 ```
 + Add the SSH key to Github SSH keys
 
+### Fish Config
 2. Open up nano with the following path
 ```
 nano ~/.config/config.fish
@@ -87,6 +100,7 @@ cd /cygdrive/c/Users/{ENTER_YOUR_USERNAME_HERE}/Projects
 
 ### Tool sources
 
-`https://cygwin.com/`
-`https://starship.rs/`
-`https://www.nerdfonts.com/font-downloads`
+[CygWin Project](https://cygwin.com/)
+[Starship Prompt](https://starship.rs/)
+[NerdFonts](https://www.nerdfonts.com/font-downloads)
+[Fish](https://fishshell.com/)
